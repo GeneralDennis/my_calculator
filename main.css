@@ -1,0 +1,125 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    display: block;
+    margin,
+    padding: 0px;
+    background-color: #517b7b
+}
+
+.calculator {
+    width: 350px;
+    height: 500px;
+    border: 2px solid #d2d499;
+    background: #e5e6bc;
+    border-radius: 25px;
+    box-shadow: 4px 4px 14px 0px #222121, inset -1px -3px 10px 1px #515151;
+    margin: 15px auto;
+}
+
+@font-face {
+    font-family: cristal;
+    src: url(cristal.ttf);
+}
+
+.monitor {
+    font-family: cristal;
+    width: 280px;
+    height: 100px;
+    border-radius: 10px;
+    background: #36d148;
+    border: 2px solid #33833d;
+    margin: 0 auto;
+}
+
+.title {
+    font-weight: 100;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 82px;
+    padding-right: 2.5px;
+}
+
+#formula {
+    height: 20px;
+    width: 98%;
+    margin-top: 10px;
+    color: #28482c;
+    text-align: right;
+    font-size: 16px;
+    padding-right: 5px;
+    border-radius: 5px;
+}
+
+#result {
+    margin-top: 10px;
+    padding-right: 5px;
+    width: 98%;
+    height: 50px;
+    text-align: right;
+    font-size: 45px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#buttons {
+    width: 295px;
+    margin: 15px auto;
+}
+
+.butt {
+    border: none;
+    box-shadow: 1px 3px 0px 0px #222121, inset -1px -3px 10px 1px #515151;
+    width: 60px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 5px 5px;
+    font-size: 20px;
+    background: #cccccc;
+    font-weight: 600;
+}
+
+.butt:active {
+    transform: translate(0px, 3px);
+    box-shadow: none;
+}
+
+.zero {
+    width: 135px;
+    height: 50px;
+}
+
+.red {
+    background: #e51010;
+    color: #e8e8e8;
+    font-weight: 700;
+}
+
+.blue {
+    background: deepskyblue;
+    font-weight: 700;
+}
+
+.footer {
+    text-align: center;
+    margin: 50px auto;
+    position: relative;
+    font-size: 18px;
+    font-weight: normal;
+    width: 100%;
+    height: 40px;
+
+}
+
+.footer a {
+    color: deepskyblue;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aliceblue;
+}
+
+a:visited {
+    color: blueviolet;
+}
